@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadastro da liga</title>
+  </head>
+  <body>
+    <h3>Cadastro da liga dos austronautas</h3>
+    <form action="">
+      <div>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+      </div>
+      <br />
+      <div>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" />
+        <label for="passwor">- passwor: </label>
+        <input type="password" name="passwor" id="passwor" required />
+      </div>
+      <br />
+      <div>
+        <label for="Data de nascimento">Data de nascimento:</label>
+        <input type="date" name="Data de nascimento" id="Data de nascimento" required/>
+        <label for="fot"> - foto:</label>
+        <input type="file" name="foto" id="foto" required/> 
+      </div>
+      <br />
+      <div>
+        <label for="nacionalidade">nacionalidade</label>
+        <select name="nacionalidade id=" nacionalidade>
+          <option value="Angola">Angola</option>
+          <option value="Russia">Russia</option>
+          <option value="Brasil">Brasil</option>
+          
+        </select>
+        - Genero:
+        <label for="femele">F</label>
+        <input type="radio" name="femele" id="femele" value="famele" />
+        <label for="male">M</label>
+        <input type="radio" name="gender" id="male" value="male" />
+      </div>
+      <div>
+        <p>Suas principais qualidades:</p>
+        <label for="inteligencia">inteligencia</label>
+        <input type="checkbox" name="inteligencia" id="initial-scale" /> |
+        <label for="Resiliencia">Resiliencia</label>
+        <input type="checkbox" name="Resiliencia" id="Resiliencia" /> |
+        <label for="preparo fisico">preparo fisico</label>
+        <input type="checkbox" name="preparo fisico" id="preparo fisico" /> |
+        <label for="educacao">educacao</label>
+        <input type="checkbox" name="educacao" id="educacao" /> |
+      </div>
+      <div>
+        <textarea
+          name="descripton"
+          id="descripton"
+          cols="30"
+          rows="10"
+          placeholder="Digite aqui o teu texto" required
+        ></textarea>
+      </div>
+      <div>
+        <input type="submit" value="enviar">
+      </div>
+    </form>
+  </body>
+</html>
