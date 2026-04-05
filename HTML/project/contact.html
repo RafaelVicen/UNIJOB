@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>contact</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="index.html">
+          <img src="img/logo.png" alt="" />
+        </a>
+        <a href="spaceX.html">spaceX</a>
+        <a href="contact.html">contact</a>
+      </nav>
+      <hr />
+    </header>
+    <section>
+      <h1>contact</h1>
+      <p>Entre em contacto e saiba mais!</p>
+    </section>
+    <br />
+    <section>
+      <form action="">
+        <div>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <br />
+        <br />
+        <div>
+          <label for="spacX">SpacX</label>
+          <select name="spacX" id="spacX">
+            <option value="falcon9">Falcon 9</option>
+            <option value="falconheavy">Falcon Heavy</option>
+          </select>
+          <label for="Servico">service:</label>
+          <input
+            type="search"
+            id="Servico"
+            name="Servico"
+            list="service"
+            required
+          />
+          <datalist id="service">
+            <option value="Teste de radio"></option>
+            <option value="Arquivos confidenciais"></option>
+            <option value="Mapa internto"></option>
+            <option value="Barreira do espaco"></option>
+            required
+          </datalist>
+        </div>
+        <br />
+        <div>
+          <input type="submit" id="enviar" name="eniar" value="enviar mensagem" />
+        </div>
+      </form>
+    </section>
+  </body>
+</html>
