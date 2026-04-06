@@ -1,0 +1,22 @@
+body {
+  background-color: rgb(7, 28, 36);
+  h1 {
+    color: aliceblue;
+  }
+  p {
+    color: yellow;
+  }
+  .Dias {
+    color: white;
+  }
+  .test{
+    color: white;
+  }
+  #rest{
+    color: rgb(255, 9, 9);
+  }
+  #cor {
+    background-color: yellow;
+    border: 1px yellow solid;
+  }
+}
