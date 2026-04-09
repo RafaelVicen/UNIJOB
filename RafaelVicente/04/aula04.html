@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h4>Formulario</h4>
+    <fieldset>
+        <legend>Cadastro de utilizador</legend>
+        <!--Com o from criamos o nosso formulario dentro de uma div-->
+        <form action="">
+            <div>
+                <label for="nome">nome:</label>
+                <input type="text" name="" id="" placeholder="Digite o seu nome" required>
+            </div>
+            <br>
+            <div>
+                <label for="email">email:</label>
+                <input type="email" name="" id="" placeholder="Digite seu email" required>
+            </div>
+            <br>
+            <div>
+                <label for="senha">senha:</label>
+                <input type="password" name="" id="" placeholder="Digite uma senha" maxlength="12" minlength="8"
+                    required>
+            </div>
+            <br>
+            <div>
+                <label for="data_nasc">Data de Nascimento:</label>
+                <input type="date" name="" required>
+            </div>
+            <br>
+            <div>
+                Genero:
+                <select name="genero" id="">
+                    <option value="disabled">Escolhe uma opcao</option>
+                    <option value="Masculino">Masculino</option>
+                    <option value="Femenino">Femenino</option>
+                    <option value="Binario">Binario</option>
+                    <option value="NaoBinario">NaoBinario</option>
+                    <option value="Outro">Outro</option>
+                </select>
+            </div>
+            <br>
+            <input type="submit" value="enviar">
+            <input type="reset" value="Limpar">
+        </form>
+    </fieldset>
+    <h3>Tabelas</h3>
+    <table border="2">
+        <thead>
+            <th>Nome:</th>
+            <th>Email:</th>
+            <th>Telefone</th>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Rafael</td>
+                <td>rafael@g.com</td>
+                <td>939976537</td>
+            </tr>
+            <tr>
+                <td>Rafael</td>
+                <td>rafael@g.com</td>
+                <td>939976537</td>
+            </tr>
+        </tbody>
+    </table>
+    <h3>Outra forma de fazer tabela</h3>
+    <!--Outra forma de fazer tabela de forma simplificada-->
+    <table border="">
+        <tr>
+            <th>Nome:</th>
+            <th>Morada</th>
+            <th>Nacionalidade</th>
+        </tr>
+        <tr>
+            <td>Rafael</td>
+            <td>Patriota</td>
+            <td>Angola</td>
+        </tr>
+                <tr>
+            <td>Rafael</td>
+            <td>Patriota</td>
+            <td>Angola</td>
+        </tr>
+    </table>
+</body>
+
+</html>
